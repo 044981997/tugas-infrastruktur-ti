@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/lucide-icons@latest/dist/umd/lucide.min.js" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .underline-custom {
+            width: fit-content;
+            margin: 0 auto;
+        }
+        .underline-custom::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-[#181a19] relative overflow-hidden flex flex-col items-center justify-center p-4">
+    <!-- Background -->
+    <div class="absolute top-20 left-20 w-32 h-32 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute top-40 right-40 w-24 h-24 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute bottom-40 right-60 w-16 h-16 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute top-60 left-1/2 w-12 h-12 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute bottom-20 right-20 w-40 h-40 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute top-10 right-10 w-20 h-20 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute bottom-10 left-10 w-36 h-36 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute top-1/3 left-10 w-28 h-28 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute bottom-1/4 right-1/4 w-24 h-24 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute top-1/4 right-1/3 w-16 h-16 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute bottom-1/3 left-1/4 w-20 h-20 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute top-3/4 left-1/3 w-14 h-14 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute top-1/2 right-1/5 w-32 h-32 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute bottom-20 left-1/2 w-24 h-24 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+    <div class="absolute top-3/4 right-10 w-16 h-16 border-2 border-dashed border-[#ea3033] rounded-full opacity-30"></div>
+
+    <!-- Main content -->
+    <div class="max-w-5xl w-full z-10">
+        <h1 class="text-white text-5xl font-bold text-center mb-12 tracking-wider underline-custom">
+            BIODATA DIRI
+        </h1>
+
+        <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+            <!-- Profile photo -->
+            <div class="relative w-64 h-64 md:w-80 md:h-80">
+                <div class="w-full h-full rounded-full bg-[#ea3033] overflow-hidden flex items-center justify-center">
+                    <img src="./Foto.png" alt="Profile Photo" class="object-cover">
+                </div>
+            </div>
+
+            <!-- Information card -->
+            <div class="bg-[#2e2e2e] rounded-3xl p-8 w-full max-w-xl">
+                <div class="space-y-6">
+                    <!-- Nama -->
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="user" class="text-[#ea3033] w-8 h-8"></i>
+                        <div>
+                            <span class="text-white text-xl font-semibold">Nama:</span>
+                            <span class="text-white text-xl ml-4">Rully Christofer Rizky</span>
+                        </div>
+                    </div>
+
+                    <!-- NIM -->
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="credit-card" class="text-[#ea3033] w-8 h-8"></i>
+                        <div>
+                            <span class="text-white text-xl font-semibold">NIM:</span>
+                            <span class="text-white text-xl ml-4">044981997</span>
+                        </div>
+                    </div>
+
+                    <!-- JK -->
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="mars" class="text-[#ea3033] w-8 h-8"></i>
+                        <div>
+                            <span class="text-white text-xl font-semibold">Jenis Kelamin:</span>
+                            <span class="text-white text-xl ml-4">Laki-laki</span>
+                        </div>
+                    </div>
+
+                    <!-- Prodi -->
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="graduation-cap" class="text-[#ea3033] w-8 h-8"></i>
+                        <div>
+                            <span class="text-white text-xl font-semibold">Program Studi:</span>
+                            <span class="text-white text-xl ml-4">Sistem informasi</span>
+                        </div>
+                    </div>
+
+                    <!-- Fakultas -->
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="building-2" class="text-[#ea3033] w-8 h-8"></i>
+                        <div>
+                            <span class="text-white text-xl font-semibold">Fakultas:</span>
+                            <span class="text-white text-xl ml-4">Fakultas Sains dan Teknologi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
